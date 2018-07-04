@@ -1,0 +1,21 @@
+use these commands to create a db
+
+>>>create database bms;
+
+>>>use bms
+
+>>>create table book (
+   bookid int(5) not null AUTO INCREMENT primary key,
+   title varchar(20) not null,
+   price float(7,2) not null,
+   author varchar(20)
+   );
+
+>>>create table users(
+   user_id int(11) not null AUTO INCREMENT primary key,
+   user_first varchar(256) not null,
+   user_last varchar(256) not null,
+   user_email varchar(256) not null,
+   user_uid varchar(256) not null,
+   user_pwd varchar(256) not null
+   );

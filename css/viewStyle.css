@@ -1,0 +1,9 @@
+#viewTable{
+	border-style: solid;
+	border-color: maroon;
+	width: 400px;
+}
+
+#viewTable tr{
+	background-color: pink;
+}
